@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hydra Safety - Do’s & Don’ts</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h2 {
+    color: #1a4d8f;
+    text-align: center;
+  }
+  .lang-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .lang-buttons button {
+    margin: 0 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  ul {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  li {
+    margin: 12px 0;
+  }
+  .do { border-left: 5px solid green; }
+  .dont { border-left: 5px solid red; }
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+  .safety-img { width: 50px; vertical-align: middle; margin-right: 10px; }
+</style>
+</head>
+<body>
+
+<div class="lang-buttons">
+  <button onclick="showLang('en')">English</button>
+  <button onclick="showLang('hi')">Hindi</button>
+  <button onclick="showLang('or')">Odia</button>
+</div>
+
+<!-- ENGLISH -->
+<div id="en" class="lang-section active">
+  <h2>✅ DO’s</h2>
+  <ul class="do">
+    <li><img class="safety-img" src="seatbelt.png" alt="Seatbelt">Always wear seatbelt during operation.</li>
+    <li><img class="safety-img" src="tyre.png" alt="Tyre">Check tyre pressure and brakes daily before use.</li>
+    <li><img class="safety-img" src="horn.png" alt="Horn">Check horn and lights of Hydra.</li>
+    <li><img class="safety-img" src="interlock.png" alt="Interlock">Check SLI and interlocks for functionality.</li>
+    <li><img class="safety-img" src="key.png" alt="Key">Switch off ignition and remove key when not in use.</li>
+    <li><img class="safety-img" src="sling.png" alt="Sling">Always use tested sling, D-shackle, and sling belt in good condition.</li>
+    <li><img class="safety-img" src="loadtest.png" alt="Load Test">Get Hydra load tested annually by a competent person and record it.</li>
+  </ul>
+
+  <h2>❌ DON’Ts</h2>
+  <ul class="dont">
+    <li>Never lift load beyond SWL.</li>
+    <li>Never start engine by pressing clutch with gear engaged.</li>
+    <li>Do not use Hydra for long-distance material shifting.</li>
+    <li>Never work under influence of alcohol.</li>
+    <li>Operator must undergo eye checkup every 6 months.</li>
+    <li>Never use mobile phone during operation.</li>
+    <li>Do not use damaged sling or D-shackle.</li>
+    <li>Never use Hydra/mobile crane for man lifting.</li>
+  </ul>
+</div>
+
+<!-- HINDI -->
+<div id="hi" class="lang-section">
+  <h2>✅ करना है</h2>
+  <ul class="do">
+    <li>ऑपरेशन के दौरान हमेशा सीटबेल्ट बांधें।</li>
+    <li>उपयोग से पहले प्रतिदिन टायर का प्रेशर और ब्रेक जांचें।</li>
+    <li>हाइड्रा का हॉर्न और लाइट्स जांचें।</li>
+    <li>SLI और अन्य इंटरलॉक की कार्यक्षमता जांचें।</li>
+    <li>इग्निशन बंद करें और उपयोग न होने पर चाबी निकालें।</li>
+    <li>हमेशा अच्छी स्थिति में परखे हुए स्लिंग, डी-शैकल और स्लिंग बेल्ट का उपयोग करें।</li>
+    <li>हाइड्रा का लोड हर साल किसी योग्य व्यक्ति से टेस्ट करवाएं और रिकॉर्ड रखें।</li>
+  </ul>
+
+  <h2>❌ नहीं करना है</h2>
+  <ul class="dont">
+    <li>लोड को कभी भी SWL से अधिक न उठाएं।</li>
+    <li>क्लच दबाकर और गियर लगाकर इंजन कभी स्टार्ट न करें।</li>
+    <li>हाइड्रा का उपयोग लंबी दूरी तक सामग्री ले जाने के लिए न करें।</li>
+    <li>शराब के प्रभाव में कभी काम न करें।</li>
+    <li>ऑपरेटर की हर 6 महीने में आंखों की जांच होना आवश्यक है।</li>
+    <li>ऑपरेशन के दौरान कभी मोबाइल का उपयोग न करें।</li>
+    <li>क्षतिग्रस्त स्लिंग या डी-शैकल का उपयोग न करें।</li>
+    <li>हाइड्रा/मोबाइल क्रेन का उपयोग कभी भी आदमी उठाने के लिए न करें।</li>
+  </ul>
+</div>
+
+<!-- ODIA -->
+<div id="or" class="lang-section">
+  <h2>✅ କରନ୍ତୁ</h2>
+  <ul class="do">
+    <li>ଅପରେସନ ସମୟରେ ସିଟ୍ ବେଲ୍ଟକୁ ସବୁବେଳେ ବାନ୍ଧିରଖନ୍ତୁ।</li>
+    <li>ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ପ୍ରତିଦିନ ଟାୟାର ପ୍ରେସର ଏବଂ ବ୍ରେକ୍ ଯାଞ୍ଚ କରନ୍ତୁ।</li>
+    <li>ହାଇଡ୍ରାର ଶିଙ୍ଗ ଏବଂ ଆଲୋକ ଯାଞ୍ଚ କରନ୍ତୁ।</li>
+    <li>କାର୍ଯ୍ୟକାରିତା ପାଇଁ SLI ଏବଂ ଅନ୍ୟାନ୍ୟ ଇଣ୍ଟରଲକ୍ ଯାଞ୍ଚ କରନ୍ତୁ।</li>
+    <li>ଇଗ୍ନିସନ୍ ବନ୍ଦ କରନ୍ତୁ ଏବଂ ବ୍ୟବହାର ନହୋଇଥିବା ସମୟରେ ଚାବି ବାହାର କରନ୍ତୁ।</li>
+    <li>ସର୍ବଦା ଭଲ ଅବସ୍ଥାରେ ପରୀକ୍ଷିତ ସ୍ଲିଙ୍ଗ, ଡି-ଶ୍ୟାକ୍ଲ ଏବଂ ସ୍ଲିଙ୍ଗ ବେଲ୍ଟ ବ୍ୟବହାର କରନ୍ତୁ।</li>
+    <li>ଜଣେ ଦକ୍ଷ ବ୍ୟକ୍ତିଙ୍କ ଦ୍ୱାରା ପ୍ରତିବର୍ଷ ହାଇଡ୍ରା ଲୋଡ୍ ପରୀକ୍ଷା କରନ୍ତୁ ଏବଂ ଏହାକୁ ରେକର୍ଡ କରନ୍ତୁ।</li>
+  </ul>
+
+  <h2>❌ କରନ୍ତୁ ନାହିଁ</h2>
+  <ul class="dont">
+    <li>କେବେ ବି ଭାରକୁ SWL ଠାରୁ ଅଧିକ ଉଠାନ୍ତୁ ନାହିଁ।</li>
+    <li>କ୍ଲଚ୍ ଦବାଇବା ଏବଂ ଗିୟର ନିଯୁକ୍ତ କରି ଇଞ୍ଜିନ୍ କଦାପି ଷ୍ଟାର୍ଟ କରନ୍ତୁ ନାହିଁ।</li>
+    <li>ହାଇଡ୍ରା ବ୍ୟବହାର କରି ଦୀର୍ଘ ଦୂରତା ପାଇଁ ଭାର ସ୍ଥାନାନ୍ତର କରନ୍ତୁ ନାହିଁ।</li>
+    <li>ମଦ୍ୟପାନ ପ୍ରଭାବରେ କାର୍ଯ୍ୟ କରନ୍ତୁ ନାହିଁ।</li>
+    <li>ଅପରେଟର ପ୍ରତି 6 ମାସରେ ଦୃଷ୍ଟି ପରୀକ୍ଷା କରିବା ଆବଶ୍ୟକ।</li>
+    <li>ଅପରେସନ ସମୟରେ କେବେ ବି ମୋବାଇଲ ବ୍ୟବହାର କରନ୍ତୁ ନାହିଁ।</li>
+    <li>କ୍ଷତିଗ୍ରସ୍ତ ସ୍ଲିଙ୍ଗ କିମ୍ବା ଡି-ଶ୍ୟାକ୍ଲ ବ୍ୟବହାର କରନ୍ତୁ ନାହିଁ।</li>
+    <li>ମଣିଷ ଉଠାଣ ପାଇଁ ହାଇଡ୍ରା/ମୋବାଇଲ୍ କ୍ରେନ୍ ବ୍ୟବହାର କରନ୍ତୁ ନାହିଁ।</li>
+  </ul>
+</div>
+
+<script>
+function showLang(lang) {
+  document.querySelectorAll('.lang-section').forEach(sec => sec.classList.remove('active'));
+  document.getElementById(lang).classList.add('active');
+}
+</script>
+
+</body>
+</html>
